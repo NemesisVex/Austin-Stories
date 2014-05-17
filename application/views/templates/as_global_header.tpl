@@ -5,12 +5,12 @@
 {if $geourl_template}{include file=$geourl_template}{/if}
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="alternate" type="application/rss+xml" title="Austin Stories RSS" href="http://www.austin-stories.com/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="Austin Stories Site News RSS" href="http://www.austin-stories.com/index.xml">
-<link rel="stylesheet" href="/includes/austinstories.css" type="text/css">
+<link rel="stylesheet" href="/css/austinstories.css" type="text/css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script type="text/javascript" src="{$config.to_vigilante}/includes/jquery.js"></script>
-<script type="text/javascript" src="{$config.to_vigilante}/includes/jquery.vigilante.js"></script>
-<script type="text/javascript" src="{$config.to_vigilante}/includes/jquery.validate.pack.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="{$smarty.const.VIGILANTMEDIA_CDN_BASE_URI}/web/js/jquery.vigilante.js"></script>
+<script type="text/javascript" src="{$smarty.const.VIGILANTMEDIA_CDN_BASE_URI}/web/js/jquery.validate.pack.js"></script>
 {literal}
 <script type="text/javascript">
 $(document).ready(function ()
